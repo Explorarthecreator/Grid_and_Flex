@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%) ;
+}
+nav{
+    height: 60px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+nav a{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: beige;
+    font-size: large;
+}
+nav a:hover{
+    background-color: transparent;
+    color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(179, 100%, 13%);
+}
+section{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.firstContainer{
+    background-color: hsl(31, 77%, 52%);
+    height: 100%;
+    width: 33.3%;
+    padding-top: 20px;
+}
+.top{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top p{
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 1.5em;
+    color:hsla(0, 0%, 100%, 0.75)
+}
+.top h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 70px;
+    color: hsl(0, 0%, 95%);
+}
+.top p,.imagecontainer,h1{
+    width: 80%;
+    margin: auto;
+}
+.bottom{
+    width: 80%;
+    margin: auto;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.bottomContainer{
+    height: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomContainer a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+}
+.bottomContainer a:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.secondContainer{
+    background-color: hsl(184, 100%, 22%);
+    height: 100%;
+    width: 33.3%;
+    padding-top: 20px;
+}
+.secondContainer .bottomContainer a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+}
+.secondContainer .bottomContainer a:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.thirdContainer{
+    background-color: hsl(179, 100%, 13%);
+    height: 100%;
+    width: 33.3%;
+    padding-top: 20px;
+}
+.thirdContainer .bottomContainer a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+}
+.thirdContainer .bottomContainer a:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
